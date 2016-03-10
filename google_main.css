@@ -1,0 +1,46 @@
+header{
+	width: auto;
+	display: block;
+}
+
+.toolbar{
+	list-style-type: none;
+	float: right;
+	font-size: 12px;
+}
+
+.toolbar li{
+	display: inline;
+	margin:9px;
+}
+
+.profile_pic{
+	height: 30px;
+	width: 30px;
+}
+
+.profile_pic img{
+	height: inherit;
+	width: inherit;
+	border-radius: 100%;
+}
+
+#content {
+    margin: 0px auto;
+    padding-top: 185px;
+    text-align: center;
+}
+
+.google {
+	font-size: 75px;
+}
+
+.search_input{
+	margin-top: 35px;
+	min-width: 500px;
+	min-height: 35px;
+}
+
+.seach_buttons input{
+	margin-top: 30px;
+}
