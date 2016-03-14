@@ -3,6 +3,11 @@ header{
 	display: block;
 }
 
+body{
+	color:#222;
+	font-family: arial,sans-serif;
+}
+
 .toolbar{
 	list-style-type: none;
 	float: right;
@@ -12,6 +17,15 @@ header{
 .toolbar li{
 	display: inline;
 	margin:9px;
+}
+
+.toolbar li a{
+	text-decoration: none;
+}
+
+*:visited{
+	text-decoration: none;
+	color: #222;
 }
 
 .profile_pic{
@@ -32,7 +46,33 @@ header{
 }
 
 .google {
-	font-size: 75px;
+	font-size: 80px;
+	font-family: 'Product Sans', Arial, sans-serif;
+	font-weight: bold;
+}
+
+.upperG{
+	color: #4885ed;
+}
+
+.firstO{
+	color: #db3236;
+}
+
+.secondO{
+	color: #f4c20d;
+}
+
+.lowerG{
+	color: #4885ed;
+}
+
+.firtsL{
+	color: #3cba54;
+}
+
+.firstE{
+	color: #db3236;
 }
 
 .search_input{
@@ -43,4 +83,23 @@ header{
 
 .seach_buttons input{
 	margin-top: 30px;
+}
+
+footer{
+	width: 100%;
+	display: block;
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	background: #F2F2F2;
+	border-top: 1;
+	border-color: #E4E4E4;
+}
+
+.footerLeft{
+	float: left;
+}
+
+.footerRight{
+	float: right;
 }
